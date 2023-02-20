@@ -15,13 +15,14 @@ const HomeSection = () => {
   const { data, fetchData, status } = useFetch(searchMovie, { page });
 
   useEffect(() => {
-    if (data) setLoadedData(data);
-  }, [data]);
+    if (data && status === FETCH_STATUS.SUCCESS) setLoadedData(data);
+  }, [data, status]);
 
   const handleLoadMore = async () => {
     const newPage = page + 1;
     setPage(newPage);
     const response = await fetchData({ page: newPage });
+
     setLoadedData((prev: ResponseTypeProps) => ({
       ...prev,
       Search: [...prev.Search, ...response.Search],

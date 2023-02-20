@@ -47,7 +47,7 @@ const useFetch = (promise: any, initialParams: any): FetchType => {
     try {
       const response = await promise(params);
 
-      setStatus(FETCH_STATUS.SUCCESS);
+      setStatus(FETCH_STATUS.SUCCESS_REFETCH);
       setData(response);
       return response;
     } catch (err) {

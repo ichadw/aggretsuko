@@ -3,6 +3,7 @@
 [SEE DEMO](https://aggretsuko-weld.vercel.app/)
 
 ![Vercel](https://vercelbadge.vercel.app/api/ichadw/aggretsuko)
+[![codecov](https://codecov.io/gh/ichadw/aggretsuko/branch/main/graph/badge.svg?token=F6MSXKPGLT)](https://codecov.io/gh/ichadw/aggretsuko)
 
 ## Requirements (recommended)
 - node `^16.x.x`
