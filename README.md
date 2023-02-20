@@ -1,6 +1,6 @@
 ## aggretsuko Mini Project
 
-[SEE DEMO](https://aggretsuko.vercel.app/)
+[SEE DEMO](https://aggretsuko-weld.vercel.app/)
 
 ![Vercel](https://vercelbadge.vercel.app/api/ichadw/aggretsuko)
 
